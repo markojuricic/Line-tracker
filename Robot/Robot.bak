@@ -1,1 +1,179 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Komponente
+LIBS:Robot-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L QRE1113 QR?
+U 1 1 58B3E595
+P 3150 1450
+F 0 "QR?" H 3400 1800 60  0000 C CNN
+F 1 "QRE1113" H 3400 1400 60  0000 C CNN
+F 2 "" H 3150 1450 60  0001 C CNN
+F 3 "" H 3150 1450 60  0001 C CNN
+	1    3150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L L293 L293?
+U 1 1 58B9C0F9
+P 8200 1900
+F 0 "L293?" H 9200 1200 60  0000 C CNN
+F 1 "L293" H 9150 1850 60  0000 C CNN
+F 2 "" H 8150 1850 60  0001 C CNN
+F 3 "" H 8150 1850 60  0001 C CNN
+	1    8200 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Motor EM?
+U 1 1 58B9D1F4
+P 7350 3150
+F 0 "EM?" H 7450 3450 60  0000 C CNN
+F 1 "Motor" H 7450 3050 60  0000 C CNN
+F 2 "" H 7350 3150 60  0001 C CNN
+F 3 "" H 7350 3150 60  0001 C CNN
+	1    7350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mux Mux?
+U 1 1 58B9EE98
+P 9300 2300
+F 0 "Mux?" H 8950 3200 60  0000 C CNN
+F 1 "Mux" H 8950 2300 60  0000 C CNN
+F 2 "" H 9300 2300 60  0001 C CNN
+F 3 "" H 9300 2300 60  0001 C CNN
+	1    9300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L QRE1113 QR?
+U 1 1 58B9F214
+P 3150 2050
+F 0 "QR?" H 3400 2400 60  0000 C CNN
+F 1 "QRE1113" H 3400 2000 60  0000 C CNN
+F 2 "" H 3150 2050 60  0001 C CNN
+F 3 "" H 3150 2050 60  0001 C CNN
+	1    3150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L QRE1113 QR?
+U 1 1 58B9F46A
+P 3150 2700
+F 0 "QR?" H 3400 3050 60  0000 C CNN
+F 1 "QRE1113" H 3400 2650 60  0000 C CNN
+F 2 "" H 3150 2700 60  0001 C CNN
+F 3 "" H 3150 2700 60  0001 C CNN
+	1    3150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L QRE1113 QR?
+U 1 1 58B9F470
+P 3150 3300
+F 0 "QR?" H 3400 3650 60  0000 C CNN
+F 1 "QRE1113" H 3400 3250 60  0000 C CNN
+F 2 "" H 3150 3300 60  0001 C CNN
+F 3 "" H 3150 3300 60  0001 C CNN
+	1    3150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L QRE1113 QR?
+U 1 1 58B9F54D
+P 3150 3900
+F 0 "QR?" H 3400 4250 60  0000 C CNN
+F 1 "QRE1113" H 3400 3850 60  0000 C CNN
+F 2 "" H 3150 3900 60  0001 C CNN
+F 3 "" H 3150 3900 60  0001 C CNN
+	1    3150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L QRE1113 QR?
+U 1 1 58B9F553
+P 3150 4500
+F 0 "QR?" H 3400 4850 60  0000 C CNN
+F 1 "QRE1113" H 3400 4450 60  0000 C CNN
+F 2 "" H 3150 4500 60  0001 C CNN
+F 3 "" H 3150 4500 60  0001 C CNN
+	1    3150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L QRE1113 QR?
+U 1 1 58B9F5B9
+P 3150 5100
+F 0 "QR?" H 3400 5450 60  0000 C CNN
+F 1 "QRE1113" H 3400 5050 60  0000 C CNN
+F 2 "" H 3150 5100 60  0001 C CNN
+F 3 "" H 3150 5100 60  0001 C CNN
+	1    3150 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L QRE1113 QR?
+U 1 1 58B9F5BF
+P 3150 5650
+F 0 "QR?" H 3400 6000 60  0000 C CNN
+F 1 "QRE1113" H 3400 5600 60  0000 C CNN
+F 2 "" H 3150 5650 60  0001 C CNN
+F 3 "" H 3150 5650 60  0001 C CNN
+	1    3150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoMicro Ard?
+U 1 1 58BA018B
+P 5350 3150
+F 0 "Ard?" H 5400 3900 60  0000 C CNN
+F 1 "ArduinoMicro" H 5350 2100 60  0000 C CNN
+F 2 "" H 5350 3150 60  0001 C CNN
+F 3 "" H 5350 3150 60  0001 C CNN
+	1    5350 3150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
