@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Komponente
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Komponente
 LIBS:Robot-cache
 EELAYER 25 0
 EELAYER END
@@ -639,23 +639,11 @@ Wire Wire Line
 Wire Wire Line
 	8950 5300 9100 5300
 Wire Wire Line
-	9100 5300 9100 5650
-Wire Wire Line
-	9100 5650 6200 5650
-Wire Wire Line
-	6200 5650 6200 4050
-Wire Wire Line
-	6200 4050 6300 4050
+	9100 5300 9100 5850
 Wire Wire Line
 	8950 5400 9050 5400
 Wire Wire Line
 	9050 5400 9050 5800
-Wire Wire Line
-	9050 5800 6150 5800
-Wire Wire Line
-	6150 5800 6150 3950
-Wire Wire Line
-	6150 3950 6300 3950
 $Comp
 L Motor EM2
 U 1 1 58BB76B0
@@ -895,4 +883,201 @@ Wire Wire Line
 	5600 6050 5600 5150
 Wire Wire Line
 	5600 5150 6300 5150
+Wire Wire Line
+	8150 2450 8250 2450
+Wire Wire Line
+	8250 2450 8250 3050
+Wire Wire Line
+	8250 3050 7950 3050
+Text GLabel 7950 3050 0    60   Input ~ 0
+ENCLA
+Wire Wire Line
+	6300 4350 5600 4350
+Text GLabel 5600 4350 0    60   Input ~ 0
+ENCLA
+Text GLabel 5600 4500 0    60   Input ~ 0
+ENCRA
+Wire Wire Line
+	6300 4450 5650 4450
+Wire Wire Line
+	5650 4450 5650 4500
+Wire Wire Line
+	5650 4500 5600 4500
+Wire Wire Line
+	10350 2500 10300 2500
+Wire Wire Line
+	10300 2500 10300 3100
+Text GLabel 10300 3100 3    60   Input ~ 0
+ENCRA
+Wire Wire Line
+	8150 2550 8150 3200
+Text GLabel 8150 3200 3    60   Input ~ 0
+ENCLB
+Wire Wire Line
+	10350 2600 10200 2600
+Wire Wire Line
+	10200 2600 10200 3550
+Text GLabel 10200 3550 3    60   Input ~ 0
+ENCRB
+Text GLabel 5450 3950 0    60   Input ~ 0
+ENCLB
+Text GLabel 5400 4150 0    60   Input ~ 0
+ENCRB
+Wire Wire Line
+	5400 4150 6050 4150
+Wire Wire Line
+	6050 4150 6050 4050
+Wire Wire Line
+	6050 4050 6300 4050
+Wire Wire Line
+	5450 3950 6300 3950
+Wire Wire Line
+	9050 5800 8200 5800
+Wire Wire Line
+	8200 5800 8200 4950
+Wire Wire Line
+	8200 4950 7500 4950
+Wire Wire Line
+	9100 5850 8050 5850
+Wire Wire Line
+	8050 5850 8050 4850
+Wire Wire Line
+	8050 4850 7500 4850
+$Comp
+L Battery BT?
+U 1 1 58C63780
+P 3450 6550
+F 0 "BT?" H 3550 6650 50  0000 L CNN
+F 1 "Baterija" H 3550 6550 50  0000 L CNN
+F 2 "" V 3450 6610 50  0000 C CNN
+F 3 "" V 3450 6610 50  0000 C CNN
+	1    3450 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +9VA #PWR?
+U 1 1 58C63E84
+P 3450 6150
+F 0 "#PWR?" H 3450 6025 50  0001 C CNN
+F 1 "+9VA" H 3450 6300 50  0000 C CNN
+F 2 "" H 3450 6150 50  0000 C CNN
+F 3 "" H 3450 6150 50  0000 C CNN
+	1    3450 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 6150 3450 6350
+Wire Wire Line
+	3450 6300 4750 6300
+Wire Wire Line
+	4100 6300 4100 6400
+Connection ~ 3450 6300
+$Comp
+L CP1 C?
+U 1 1 58C643A3
+P 4100 6550
+F 0 "C?" H 4125 6650 50  0000 L CNN
+F 1 "22uF" H 4125 6450 50  0000 L CNN
+F 2 "" H 4100 6550 50  0000 C CNN
+F 3 "" H 4100 6550 50  0000 C CNN
+	1    4100 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 6750 3450 6900
+Wire Wire Line
+	3450 6900 4750 6900
+Wire Wire Line
+	4100 6700 4100 6900
+Connection ~ 4100 6900
+Wire Wire Line
+	4400 6900 4400 7050
+Connection ~ 4400 6900
+$Comp
+L GND #PWR?
+U 1 1 58C64D0F
+P 4400 7050
+F 0 "#PWR?" H 4400 6800 50  0001 C CNN
+F 1 "GND" H 4400 6900 50  0000 C CNN
+F 2 "" H 4400 7050 50  0000 C CNN
+F 3 "" H 4400 7050 50  0000 C CNN
+	1    4400 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch_inv SW?
+U 1 1 58C6553D
+P 5150 6750
+F 0 "SW?" H 5300 6950 60  0000 C CNN
+F 1 "Switch_inv" H 5400 6600 60  0000 C CNN
+F 2 "" H 5150 6750 60  0001 C CNN
+F 3 "" H 5150 6750 60  0001 C CNN
+	1    5150 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 6300 4750 6600
+Connection ~ 4100 6300
+Wire Wire Line
+	5550 6750 5950 6750
+$Comp
+L +9V #PWR?
+U 1 1 58C66D44
+P 5950 6600
+F 0 "#PWR?" H 5950 6450 50  0001 C CNN
+F 1 "+9V" H 5950 6740 50  0000 C CNN
+F 2 "" H 5950 6600 50  0000 C CNN
+F 3 "" H 5950 6600 50  0000 C CNN
+	1    5950 6600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 6750
+$Comp
+L R R?
+U 1 1 58C66FBD
+P 5950 7000
+F 0 "R?" V 6030 7000 50  0000 C CNN
+F 1 "10k" V 5950 7000 50  0000 C CNN
+F 2 "" V 5880 7000 50  0000 C CNN
+F 3 "" H 5950 7000 50  0000 C CNN
+	1    5950 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58C67BD4
+P 5950 7400
+F 0 "R?" V 6050 7400 50  0000 C CNN
+F 1 "10k" V 5950 7400 50  0000 C CNN
+F 2 "" V 5880 7400 50  0000 C CNN
+F 3 "" H 5950 7400 50  0000 C CNN
+	1    5950 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 6600 5950 6850
+Wire Wire Line
+	5950 7150 5950 7250
+Wire Wire Line
+	5950 7550 5950 7600
+$Comp
+L GND #PWR?
+U 1 1 58C6886B
+P 5950 7600
+F 0 "#PWR?" H 5950 7350 50  0001 C CNN
+F 1 "GND" H 5950 7450 50  0000 C CNN
+F 2 "" H 5950 7600 50  0000 C CNN
+F 3 "" H 5950 7600 50  0000 C CNN
+	1    5950 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 7200 5550 7200
+Connection ~ 5950 7200
+Text GLabel 5550 7200 0    60   Input ~ 0
+VBAT
+Text GLabel 7650 4550 2    60   Input ~ 0
+VBAT
+Wire Wire Line
+	7650 4550 7500 4550
 $EndSCHEMATC
