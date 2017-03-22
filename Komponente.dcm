@@ -1,6 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ArduinoMicro
+F http://www.farnell.com/datasheets/1685581.pdf
+$ENDCMP
+#
 $CMP BT
+F http://cdn.sparkfun.com/datasheets/Wireless/Bluetooth/BlueSMiRF-Gold-ChipAnt-v1_rotat2.pdf
+$ENDCMP
+#
+$CMP BT_Smirf
 F http://cdn.sparkfun.com/datasheets/Wireless/Bluetooth/BlueSMiRF-Gold-ChipAnt-v1_rotat2.pdf
 $ENDCMP
 #
@@ -8,8 +16,16 @@ $CMP L293
 F http://www.farnell.com/datasheets/2020366.pdf?_ga=1.176931681.576135676.1488564229
 $ENDCMP
 #
+$CMP Motor
+F https://www.pololu.com/product/3072
+$ENDCMP
+#
 $CMP Mux
 F http://www.ti.com/lit/ds/symlink/cd4051b.pdf
+$ENDCMP
+#
+$CMP QRE1113
+F http://www.farnell.com/datasheets/2212320.pdf?_ga=1.243990721.576135676.1488564229
 $ENDCMP
 #
 #End Doc Library
